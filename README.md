@@ -1,36 +1,76 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 💸 FinSaarthi — AI Finance Management Platform
 
-## Getting Started
+FinSaarthi is a full-stack AI-powered web application that helps users track and manage personal finances. It delivers real-time analytics, budget insights, and smart financial suggestions powered by modern web technologies.
 
-First, run the development server:
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React 19, Next.js 15, Tailwind CSS, Shadcn UI, Material-UI
+- **Backend & Database:** Supabase, Prisma, PostgreSQL
+- **Authentication:** Clerk Auth
+- **Background Jobs & Security:** Inngest, Arcjet
+- **AI Integration:** Gemini API (for future AI-based financial suggestions)
+
+---
+
+## ✨ Features
+
+- 🔐 **Secure Authentication:** Seamless sign-up/login and personalized dashboards using **Clerk**.
+- 💹 **Dynamic Finance Tracker:** Add, edit, and delete over 1,000+ financial records (expenses, income, savings).
+- 📈 **Insightful Analytics:** Real-time summaries, pie charts, and trend-based visualizations.
+- 🧠 **Smart Budgeting Suggestions:** Pattern-based advice for better financial decisions.
+- ⏱ **Async Background Tasks:** Automated background processes via **Inngest**.
+- 🛡 **Runtime Protection:** Enhanced security using **Arcjet**.
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repo
+
+```bash
+git clone https://github.com/yourusername/FinSaarthi.git
+cd FinSaarthi
+
+### 2. Install Dependencies
+
+```bash
+npm install
+```
+
+### 3. Set up Environment Variables
+
+Create a `.env.local` file with the following keys (replace with actual values):
+
+```env
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_key
+CLERK_SECRET_KEY=your_key
+SUPABASE_URL=https://your-project.supabase.co
+SUPABASE_ANON_KEY=your_key
+DATABASE_URL=your_postgres_connection_string
+```
+
+### 4. Run the App
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+App will be live at [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🧑‍💻 Author
 
-## Learn More
+[Disha Dewangan](https://github.com/DishaDewangan)
+Email: [dishadewangan0109@gmail.com](mailto:dishadewangan0109@gmail.com)
+LinkedIn: [linkedin.com/in/disha-dewangan-9a0071291](https://linkedin.com/in/disha-dewangan-9a0071291)
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📄 License
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+This project is licensed under the [MIT License](LICENSE).
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```
